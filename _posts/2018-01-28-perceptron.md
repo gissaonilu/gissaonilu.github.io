@@ -1,5 +1,5 @@
 ---
-title: "Data Storytelling Project"
+title: "Data  Project"
 date: 2020-09-09
 tags: [data storytelling, data science, data visualization, food, africa]
 header:
