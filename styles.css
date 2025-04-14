@@ -10,7 +10,24 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
+
+
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*header img {
+    border-radius: 50%;
+    margin-right: 10px;
+}*/
+
 
 nav ul {
     list-style: none;
@@ -28,7 +45,7 @@ nav ul li a {
 }
 
 main {
-    padding: 20px;
+    padding: 80px 20px 20px;
 }
 
 h1, h2 {
@@ -52,4 +69,5 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    z-index: 1000;
 }
