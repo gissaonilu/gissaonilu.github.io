@@ -12,7 +12,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -30,8 +29,8 @@ header h1 {
 header img {
     border-radius: 50%;
     margin-right: 10px;
-    width: 40px; /* Adjust image size */
-    height: 40px; /* Adjust image size */
+    width: 70px; /* Adjust image size */
+    height: 70px; /* Adjust image size */
 }
 
 nav ul {
@@ -74,7 +73,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     width: 100%;
     bottom: 0;
     z-index: 1000;
